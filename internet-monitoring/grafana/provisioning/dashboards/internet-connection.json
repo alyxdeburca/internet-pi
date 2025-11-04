@@ -396,7 +396,7 @@
           "format": "time_series",
           "interval": "",
           "intervalFactor": 1,
-          "legendFormat": "{{instance}}",
+          "legendFormat": "{{humanname}}",
           "refId": "A"
         }
       ],
@@ -496,7 +496,7 @@
           "expr": "sum(probe_http_duration_seconds) by (instance)",
           "format": "time_series",
           "intervalFactor": 1,
-          "legendFormat": "{{instance}}",
+          "legendFormat": "{{humanname}}",
           "refId": "A"
         }
       ],
@@ -589,7 +589,7 @@
           "expr": "speedtest_jitter_latency_milliseconds{}\n",
           "format": "time_series",
           "intervalFactor": 1,
-          "legendFormat": "{{instance}}",
+          "legendFormat": "{{humanname}}",
           "range": true,
           "refId": "A"
         }
@@ -683,7 +683,7 @@
           "expr": "sum(probe_http_duration_seconds{phase=\"connect\"}) by (instance)",
           "format": "time_series",
           "intervalFactor": 1,
-          "legendFormat": "{{instance}}",
+          "legendFormat": "{{humanname}}",
           "range": true,
           "refId": "A"
         }
@@ -777,7 +777,7 @@
           "expr": "sum(probe_http_duration_seconds{phase=\"processing\"}) by (instance)",
           "format": "time_series",
           "intervalFactor": 1,
-          "legendFormat": "{{instance}}",
+          "legendFormat": "{{humanname}}",
           "range": true,
           "refId": "A"
         }
@@ -871,7 +871,7 @@
           "expr": "sum(probe_http_duration_seconds{phase=\"resolve\"}) by (instance)",
           "format": "time_series",
           "intervalFactor": 1,
-          "legendFormat": "{{instance}}",
+          "legendFormat": "{{humanname}}",
           "range": true,
           "refId": "A"
         }
@@ -965,7 +965,7 @@
           "expr": "sum(probe_http_duration_seconds{phase=\"tls\"}) by (instance)",
           "format": "time_series",
           "intervalFactor": 1,
-          "legendFormat": "{{instance}}",
+          "legendFormat": "{{humanname}}",
           "range": true,
           "refId": "A"
         }
@@ -1059,7 +1059,7 @@
           "expr": "sum(probe_http_duration_seconds{phase=\"transfer\"}) by (instance)",
           "format": "time_series",
           "intervalFactor": 1,
-          "legendFormat": "{{instance}}",
+          "legendFormat": "{{humanname}}",
           "range": true,
           "refId": "A"
         }
